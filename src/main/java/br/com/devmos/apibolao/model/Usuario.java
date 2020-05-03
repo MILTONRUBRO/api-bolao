@@ -31,7 +31,12 @@ public class Usuario {
 	@PastOrPresent
 	private LocalDateTime instanteCriacao;
 	
-	 public static final PasswordEncoder PASSWORD_ENCODER = new BCryptPasswordEncoder();
+	public static final PasswordEncoder PASSWORD_ENCODER = new BCryptPasswordEncoder();
+	
+	@Deprecated
+	public Usuario() {
+		
+	}
 	
 	public Usuario(@Email String login, @Size(min = 6) String senha) {
 		this.login = login;
