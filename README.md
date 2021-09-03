@@ -1,6 +1,6 @@
 # Api-Bolão
 
- Api-Bolão é uma API desenvolvida com java utilizando SpringBoot e Swagger.
+ Api-Bolão é uma API desenvolvida para realização de apostas esportivas com java utilizando SpringBoot e Swagger.
 
 ## Uso
 ```
